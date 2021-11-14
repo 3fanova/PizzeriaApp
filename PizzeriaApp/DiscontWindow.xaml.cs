@@ -27,6 +27,7 @@ namespace PizzeriaApp
             
             InitializeComponent();
             cmbBirthday.Items.Add("Да");
+            cmbBirthday.Items.Add("Нет");
         }
         
         private void btnOK_Click(object sender, RoutedEventArgs e)
@@ -37,7 +38,7 @@ namespace PizzeriaApp
                 Random orders = new Random();
                 int ord = orders.Next(1000, 9000);
                 MessageBox.Show("Ваш заказ оформлен, ожидайте! " + " Номер заказа: " + ord + " " + " К оплате: " + tblSum.Text +  " руб.", "Оформление заказа", MessageBoxButton.OK, MessageBoxImage.Information);
-                File.AppendAllText("D:/Пиццерия_Ефанова/PizzeriaApp/PizzeriaApp/Resources/Заказы.txt", "Сумма к оплате: " + tblSum.Text + " " + rbPickup.Content);
+                File.AppendAllText("Заказы.txt", "Сумма к оплате: " + tblSum.Text + " " + rbPickup.Content);
                 MainWindow main = new MainWindow();
                 main.Show();
                 this.Close();

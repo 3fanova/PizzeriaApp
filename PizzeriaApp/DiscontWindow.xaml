@@ -24,7 +24,8 @@
         <TextBlock Name="tblDiscont" FontWeight="Bold" Foreground="Maroon"  Text="20% СКИДКА ИМЕННИНИКАМ" FontSize="20"  Margin="126,15,15.8,0" Grid.Row="1" HorizontalAlignment="Center" Width="303"/>
         <TextBlock Name="tblBirthday" FontWeight="Bold" Foreground="Maroon"  Text="У ВАС СЕГОДНЯ ДЕНЬ РОЖДЕНИЕ?" FontSize="17" Margin="10,50,-0.8,0" Grid.Row="1" Grid.ColumnSpan="2"/>
         <TextBlock Name="tblConfirmation" Foreground="Maroon" FontSize="17" FontFamily="Microsoft sans serif" Margin="10,70,-0.8,0" Grid.Row="1" TextWrapping="Wrap" Grid.ColumnSpan="2">*Курьеру потребуется подтверждение <LineBreak/>Вашей даты рождения*</TextBlock>
-        <ComboBox Name="cmbBirthday"  Width="150" Text="Нет" Foreground="Maroon" FontSize="17" Grid.Row="1" HorizontalAlignment="Right" Margin="0,55,40.2,35" Grid.ColumnSpan="2" SelectionChanged="cmbBirthday_SelectionChanged"/>
+        <ComboBox Name="cmbBirthday"  Width="150" Text="Нет" Foreground="Maroon" FontSize="17" Grid.Row="1" HorizontalAlignment="Right" Margin="0,55,40.2,35" Grid.ColumnSpan="2" SelectionChanged="cmbBirthday_SelectionChanged">
+        </ComboBox>
         <TextBlock Name="tblComment" Foreground="Maroon"  Text="ПОЛУЧИТЕ КУПОН НА ЗАКАЗ, ОСТАВИВ СВОЙ ОТЗЫВ" FontSize="20"  Margin="30,5,20.2,99.4" Grid.Row="2" FontWeight="Bold" HorizontalAlignment="Center" Grid.ColumnSpan="2" Grid.RowSpan="2" Width="553"/>
         <TextBlock Name="tblCouponOne" Foreground="Maroon"  Text="Наггетсы куриные, Pepsi" FontSize="17"  Margin="10,30,-0.8,99.4" Grid.Row="2" FontWeight="Bold" Grid.ColumnSpan="2" Grid.RowSpan="2"/>
         <TextBlock Name="tblSumCouponOneDiscont" Foreground="Maroon"  Text="185 руб." FontSize="17"  Margin="18,30,0.2,0.4" FontWeight="Bold" Grid.Column="1" Grid.Row="2"/>

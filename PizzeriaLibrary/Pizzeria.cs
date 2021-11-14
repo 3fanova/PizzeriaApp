@@ -75,17 +75,17 @@ namespace PizzeriaLibrary
         {
             if (rbCash.IsChecked==true)
             {
-                File.AppendAllText("D:/Пиццерия_Ефанова/PizzeriaApp/PizzeriaApp/Resources/Заказы.txt", tbSurname.Text + " " + tbNum.Text + " " + " " + rbCash.Content);
+                File.AppendAllText("Заказы.txt", tbSurname.Text + " " + tbNum.Text + " " + " " + rbCash.Content);
             }
             if (rbCard.IsChecked==true)
             {
-                File.AppendAllText("D:/Пиццерия_Ефанова/PizzeriaApp/PizzeriaApp/Resources/Заказы.txt", tbSurname.Text + " " + tbNum.Text + " " + " " + rbCard.Content);
+                File.AppendAllText("Заказы.txt", tbSurname.Text + " " + tbNum.Text + " " + " " + rbCard.Content);
             }
         }
 
         static public void saveComment(TextBox tbComment)
         {
-            File.AppendAllText("D:/Пиццерия_Ефанова/PizzeriaApp/PizzeriaApp/Resources/Отзывы.txt", tbComment.Text);
+            File.AppendAllText("Отзывы.txt", tbComment.Text);
         }
         static public bool ValidCharFound(string str)
         {
