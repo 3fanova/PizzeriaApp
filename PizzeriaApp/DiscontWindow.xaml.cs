@@ -27,7 +27,7 @@ namespace PizzeriaApp
             
             InitializeComponent();
             cmbBirthday.Items.Add("Да");
-            cmbBirthday.Items.Add("Нет");
+           
         }
         
         private void btnOK_Click(object sender, RoutedEventArgs e)
@@ -37,7 +37,7 @@ namespace PizzeriaApp
                 tblSum.Text = Convert.ToString(Amount.Sum);
                 Random orders = new Random();
                 int ord = orders.Next(1000, 9000);
-                MessageBox.Show("Ваш заказ оформлен, ожидайте! " + " Номер заказа: " + ord + " " + " К оплате: " + tblSum.Text +  " руб.", "Оформление заказа", MessageBoxButton.OK, MessageBoxImage.Information);
+                MessageBox.Show("Ваш заказ оформлен, ожидайте! " + "Номер заказа: " + ord + " " + "Стоимость заказа: " + tblSum.Text +  " руб.", "Оформление заказа", MessageBoxButton.OK, MessageBoxImage.Information);
                 File.AppendAllText("Заказы.txt", "Сумма к оплате: " + tblSum.Text + " " + rbPickup.Content);
                 MainWindow main = new MainWindow();
                 main.Show();
@@ -51,7 +51,7 @@ namespace PizzeriaApp
             }
             else
             {
-                MessageBox.Show("Ошибка, выберите способ даставки!", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
+                MessageBox.Show("Ошибка, выберите способ доставки!", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
 

@@ -11,9 +11,9 @@
             <ColumnDefinition Width="233*">
             </ColumnDefinition>
             <ColumnDefinition Width="82*"/>
-            <ColumnDefinition Width="235*">
+            <ColumnDefinition Width="238*">
             </ColumnDefinition>
-            <ColumnDefinition Width="81*"/>
+            <ColumnDefinition Width="78*"/>
             <ColumnDefinition Width="233*">
             </ColumnDefinition>
             <ColumnDefinition Width="80*"/>
@@ -24,50 +24,50 @@
             <RowDefinition Height="120"/>
         </Grid.RowDefinitions>
         <Image Source="Resources/Pizza.png" Margin="30,10,0,10" HorizontalAlignment="Left" Width="60"/>
-        <Image Source="Resources/Potable.png" Margin="30.8,10,0,10" HorizontalAlignment="Left" Grid.Column="4" Width="60"/>
-        <Image Source="Resources/Snack.png" Margin="29.8,10,0,10" HorizontalAlignment="Left" Grid.Column="2" Width="60"/>
+        <Image Source="Resources/Potable.png" Margin="31.8,10,0,10" HorizontalAlignment="Left" Grid.Column="4" Width="60"/>
+        <Image Source="Resources/Snack.png" Margin="29.6,10,0,10" HorizontalAlignment="Left" Grid.Column="2" Width="60"/>
         <TextBlock Grid.Column="0" Name="tblPizza" FontSize="25" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="126,20,29.8,0" FontWeight="Bold"   Height="28" Width="77">Пицца</TextBlock>
-        <TextBlock Grid.Column="2" Name="tblSnack" FontSize="25" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="103.8,20,33.4,0" FontWeight="Bold"  Height="28" Width="98">Закуски</TextBlock>
-        <TextBlock Grid.Column="4" Name="tblPotables" FontSize="25" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="100.8,20,31,0" FontWeight="Bold" Height="28" Width="101">Напитки</TextBlock>
+        <TextBlock Grid.Column="2" Name="tblSnack" FontSize="25" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="103.6,20,36.8,0" FontWeight="Bold"  Height="28" Width="98">Закуски</TextBlock>
+        <TextBlock Grid.Column="4" Name="tblPotables" FontSize="25" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="98.8,20,33,0" FontWeight="Bold" Height="28" Width="101">Напитки</TextBlock>
 
-        <CheckBox Grid.Column="0"   Name="cbPizzaMargarita" Grid.Row="1"  Margin="10,15,0.2,0.4" Unchecked="cbPizzaMargarita_Unchecked" Grid.ColumnSpan="2"  Checked="cbPizzaMargarita_Checked">Маргарита</CheckBox>
-        <TextBlock Name="tblSumMargarita" Text="415 руб." FontSize="17"  Margin="0,15,0.2,0.4" Grid.Column="1" Grid.Row="1"/>
-        <CheckBox Grid.Column="0" Unchecked="cbPizzaVegat_Unchecked" Name="cbPizzaVegat" Grid.Row="1"  Margin="10,55,0.2,0.4" Grid.ColumnSpan="2" Checked="cbPizzaVegat_Checked">Вегетарианская</CheckBox>
-        <TextBlock Name="tblSumVegat" Text="415 руб." FontSize="17"  Margin="0,55,0.2,0.4" Grid.Column="1" Grid.Row="1"/>
-        <CheckBox Grid.Column="0" Unchecked="cbPizzaFourCheese_Unchecked" Name="cbPizzaFourCheese" Grid.Row="1" Margin="10,95,0.2,0.4" Grid.ColumnSpan="2" Checked="cbPizzaFourCheese_Checked">Четыре сыра</CheckBox>
-        <TextBlock Name="tblSumFourCheese" Text="485 руб." FontSize="17"  Margin="0,95,0.2,0.4" Grid.Column="1" Grid.Row="1"/>
-        <CheckBox Grid.Column="0"  Name="cbPizzaHawaiian" Unchecked="cbPizzaHawaiian_Unchecked" Grid.Row="1" Margin="10,135,0.2,0.4" Grid.ColumnSpan="2" Checked="cbPizzaHawaiian_Checked">Гавайская</CheckBox>
-        <TextBlock Name="tblSumHawaiian" Text="490 руб." FontSize="17"  Margin="0,135,0.2,0.4" Grid.Column="1" Grid.Row="1"/>
-        <CheckBox Grid.Column="0" Unchecked="cbPizzaCaesar_Unchecked" Name="cbPizzaCaesar" Grid.Row="1" Margin="10,175,0.2,0.4" Grid.ColumnSpan="2" Checked="cbPizzaCaesar_Checked">Цезарь</CheckBox>
-        <TextBlock Name="tblSumCeaser" Text="500 руб." FontSize="17"  Margin="0,175,0.2,0.4" Grid.Column="1" Grid.Row="1"/>
+        <CheckBox Grid.Column="0"   Name="cbPizzaMargarita" Grid.Row="1"  Margin="10,15,0.4,0.4" Unchecked="cbPizzaMargarita_Unchecked" Grid.ColumnSpan="2"  Checked="cbPizzaMargarita_Checked">Маргарита</CheckBox>
+        <TextBlock Name="tblSumMargarita" Text="415 руб." FontSize="17"  Margin="0.2,15,0.4,0.4" Grid.Column="1" Grid.Row="1"/>
+        <CheckBox Grid.Column="0" Unchecked="cbPizzaVegat_Unchecked" Name="cbPizzaVegat" Grid.Row="1"  Margin="10,55,0.4,0.4" Grid.ColumnSpan="2" Checked="cbPizzaVegat_Checked">Вегетарианская</CheckBox>
+        <TextBlock Name="tblSumVegat" Text="415 руб." FontSize="17"  Margin="0.2,55,0.4,0.4" Grid.Column="1" Grid.Row="1"/>
+        <CheckBox Grid.Column="0" Unchecked="cbPizzaFourCheese_Unchecked" Name="cbPizzaFourCheese" Grid.Row="1" Margin="10,95,0.4,0.4" Grid.ColumnSpan="2" Checked="cbPizzaFourCheese_Checked">Четыре сыра</CheckBox>
+        <TextBlock Name="tblSumFourCheese" Text="485 руб." FontSize="17"  Margin="0.2,95,0.4,0.4" Grid.Column="1" Grid.Row="1"/>
+        <CheckBox Grid.Column="0"  Name="cbPizzaHawaiian" Unchecked="cbPizzaHawaiian_Unchecked" Grid.Row="1" Margin="10,135,0.4,0.4" Grid.ColumnSpan="2" Checked="cbPizzaHawaiian_Checked">Гавайская</CheckBox>
+        <TextBlock Name="tblSumHawaiian" Text="490 руб." FontSize="17"  Margin="0.2,135,0.4,0.4" Grid.Column="1" Grid.Row="1"/>
+        <CheckBox Grid.Column="0" Unchecked="cbPizzaCaesar_Unchecked" Name="cbPizzaCaesar" Grid.Row="1" Margin="10,175,0.4,0.4" Grid.ColumnSpan="2" Checked="cbPizzaCaesar_Checked">Цезарь</CheckBox>
+        <TextBlock Name="tblSumCeaser" Text="500 руб." FontSize="17"  Margin="0.2,175,0.4,0.4" Grid.Column="1" Grid.Row="1"/>
 
-        <CheckBox Grid.Column="2" Unchecked="cbNaggets_Unchecked" Name="cbNaggets" Grid.Row="1" Margin="9.8,15,0.2,0.4" Grid.ColumnSpan="2" Checked="cbNaggets_Checked">Наггетсы куриные</CheckBox>
-        <TextBlock Name="tblSumNaggets" Text="120 руб." FontSize="17" Margin="0,15,0.2,0.4" Grid.Column="3" Grid.Row="1"/>
-        <CheckBox Grid.Column="2" Unchecked="cbFri_Unchecked" Name="cbFri" Grid.Row="1"  Margin="9.8,55,0.2,0.4" Grid.ColumnSpan="2" Checked="cbFri_Checked">Картофель фри</CheckBox>
-        <TextBlock Name="tblSumFri" Text="80 руб." FontSize="17"  Margin="0,55,0.2,0.4" Grid.Column="3" Grid.Row="1"/>
-        <CheckBox Grid.Column="2" Checked="cbVegetables_Checked" Unchecked="cbVegetables_Unchecked" Name="cbVegetables" Grid.Row="1" Margin="9.8,95,0.2,0.4" Grid.ColumnSpan="2">Овощи запеченные</CheckBox>
-        <TextBlock Name="tblSumVegetables" Text="65 руб." FontSize="17"  Margin="0,95,0.2,0.4" Grid.Column="3" Grid.Row="1"/>
-        <CheckBox Grid.Column="2" Checked="cbPork_Checked" Unchecked="cbPork_Unchecked" Name="cbPork" Grid.Row="1" Margin="9.8,135,0.2,0.4" Grid.ColumnSpan="2">Отбивная из свинины</CheckBox>
-        <TextBlock Name="tblSumPork" Text="350 руб." FontSize="17" Margin="0,135,0.2,0.4" Grid.Column="3" Grid.Row="1"/>
-        <CheckBox Grid.Column="2"  Name="cbSalmon" Checked="cbSalmon_Checked" Unchecked="cbSalmon_Unchecked" Grid.Row="1" Margin="9.8,175,0.2,0.4" Grid.ColumnSpan="2">Стейк из семги</CheckBox>
-        <TextBlock Name="tblSumSalmon" Text="187 руб." FontSize="17"  Margin="0,175,0.2,0.4" Grid.Column="3" Grid.Row="1"/>
+        <CheckBox Grid.Column="2" Unchecked="cbNaggets_Unchecked" Name="cbNaggets" Grid.Row="1" Margin="9.6,15,1.2,0.4" Grid.ColumnSpan="2" Checked="cbNaggets_Checked">Наггетсы куриные</CheckBox>
+        <TextBlock Name="tblSumNaggets" Text="120 руб." FontSize="17" Margin="1.2,15,1.2,0.4" Grid.Column="3" Grid.Row="1"/>
+        <CheckBox Grid.Column="2" Unchecked="cbFri_Unchecked" Name="cbFri" Grid.Row="1"  Margin="9.6,55,1.2,0.4" Grid.ColumnSpan="2" Checked="cbFri_Checked">Картофель фри</CheckBox>
+        <TextBlock Name="tblSumFri" Text="80 руб." FontSize="17"  Margin="1.2,55,1.2,0.4" Grid.Column="3" Grid.Row="1"/>
+        <CheckBox Grid.Column="2" Checked="cbVegetables_Checked" Unchecked="cbVegetables_Unchecked" Name="cbVegetables" Grid.Row="1" Margin="9.6,95,1.2,0.4" Grid.ColumnSpan="2">Овощи запеченные</CheckBox>
+        <TextBlock Name="tblSumVegetables" Text="65 руб." FontSize="17"  Margin="1.2,95,1.2,0.4" Grid.Column="3" Grid.Row="1"/>
+        <CheckBox Grid.Column="2" Checked="cbPork_Checked" Unchecked="cbPork_Unchecked" Name="cbPork" Grid.Row="1" Margin="9.6,135,1.2,0.4" Grid.ColumnSpan="2">Отбивная из свинины</CheckBox>
+        <TextBlock Name="tblSumPork" Text="350 руб." FontSize="17" Margin="1.2,135,1.2,0.4" Grid.Column="3" Grid.Row="1"/>
+        <CheckBox Grid.Column="2"  Name="cbSalmon" Checked="cbSalmon_Checked" Unchecked="cbSalmon_Unchecked" Grid.Row="1" Margin="9.6,175,1.2,0.4" Grid.ColumnSpan="2">Стейк из семги</CheckBox>
+        <TextBlock Name="tblSumSalmon" Text="187 руб." FontSize="17"  Margin="1.2,175,1.2,0.4" Grid.Column="3" Grid.Row="1"/>
 
-        <CheckBox Grid.Column="4"  Name="cbFruitDrink" Grid.Row="1" Checked="cbFruitDrink_Checked" Unchecked="cbFruitDrink_Unchecked" Margin="10.8,15,-3,0.4" Grid.ColumnSpan="2">Морс из клюквы</CheckBox>
-        <TextBlock Name="tblSumDrink" Text="75 руб." FontSize="17"  Margin="0,15,0.2,0.4" Grid.Column="5" Grid.Row="1"/>
-        <CheckBox Grid.Column="4"  Name="cbJuice" Grid.Row="1" Checked="cbJuice_Checked" Unchecked="cbJuice_Unchecked" Margin="10.8,55,-3,0.4" Grid.ColumnSpan="2">Сок "Добрый"</CheckBox>
-        <TextBlock Name="tblSumJuice" Text="130 руб." FontSize="17" Margin="0,55,0.2,0.4" Grid.Column="5" Grid.Row="1"/>
-        <CheckBox Grid.Column="4"  Name="cbCola" Grid.Row="1" Checked="cbCola_Checked" Unchecked="cbCola_Unchecked" Margin="10.8,95,-3,0.4" Grid.ColumnSpan="2">Coca-cola</CheckBox>
-        <TextBlock Name="tblSumCola" Text="90 руб." FontSize="17"  Margin="0,95,0.2,0.4" Grid.Column="5" Grid.Row="1"/>
-        <CheckBox Grid.Column="4"  Name="cbBonAqua" Grid.Row="1" Margin="10.8,135,-3,0.4" Checked="cbBonAqua_Checked" Unchecked="cbBonAqua_Unchecked" Grid.ColumnSpan="2">Bon Aqua</CheckBox>
-        <TextBlock Name="tblSumBonAqua" Text="80 руб." FontSize="17" Margin="0,135,0.2,0.4" Grid.Column="5" Grid.Row="1"/>
-        <CheckBox Grid.Column="4"  Name="cbPepsi" Grid.Row="1" Margin="10.8,175,-3,0.4" Checked="cbPepsi_Checked" Unchecked="cbPepsi_Unchecked" Grid.ColumnSpan="2">Pepsi</CheckBox>
-        <TextBlock Name="tblSumPepsi" Text="87 руб." FontSize="17"  Margin="0,175,0.2,0.4" Grid.Column="5" Grid.Row="1"/>
+        <CheckBox Grid.Column="4"  Name="cbFruitDrink" Grid.Row="1" Checked="cbFruitDrink_Checked" Unchecked="cbFruitDrink_Unchecked" Margin="11.8,15,-3,0.4" Grid.ColumnSpan="2">Морс из клюквы</CheckBox>
+        <TextBlock Name="tblSumDrink" Text="75 руб." FontSize="17"  Margin="0,15,0,0.4" Grid.Column="5" Grid.Row="1"/>
+        <CheckBox Grid.Column="4"  Name="cbJuice" Grid.Row="1" Checked="cbJuice_Checked" Unchecked="cbJuice_Unchecked" Margin="11.8,55,-3,0.4" Grid.ColumnSpan="2">Сок "Добрый"</CheckBox>
+        <TextBlock Name="tblSumJuice" Text="130 руб." FontSize="17" Margin="0,55,0,0.4" Grid.Column="5" Grid.Row="1"/>
+        <CheckBox Grid.Column="4"  Name="cbCola" Grid.Row="1" Checked="cbCola_Checked" Unchecked="cbCola_Unchecked" Margin="11.8,95,-3,0.4" Grid.ColumnSpan="2">Coca-cola</CheckBox>
+        <TextBlock Name="tblSumCola" Text="90 руб." FontSize="17"  Margin="0,95,0,0.4" Grid.Column="5" Grid.Row="1"/>
+        <CheckBox Grid.Column="4"  Name="cbBonAqua" Grid.Row="1" Margin="11.8,135,-3,0.4" Checked="cbBonAqua_Checked" Unchecked="cbBonAqua_Unchecked" Grid.ColumnSpan="2">Bon Aqua</CheckBox>
+        <TextBlock Name="tblSumBonAqua" Text="80 руб." FontSize="17" Margin="0,135,0,0.4" Grid.Column="5" Grid.Row="1"/>
+        <CheckBox Grid.Column="4"  Name="cbPepsi" Grid.Row="1" Margin="11.8,175,-3,0.4" Checked="cbPepsi_Checked" Unchecked="cbPepsi_Unchecked" Grid.ColumnSpan="2">Pepsi</CheckBox>
+        <TextBlock Name="tblSumPepsi" Text="87 руб." FontSize="17"  Margin="0,175,0,0.4" Grid.Column="5" Grid.Row="1"/>
 
-        <TextBlock x:Name="tblSumText" Text="СУММА ЗАКАЗА" FontSize="20" FontWeight="Bold" HorizontalAlignment="Right" Foreground="White" Grid.Row="1" Margin="20,230,3.2,0.4"  Grid.ColumnSpan="5"  Grid.RowSpan="2"/>
-        <TextBlock x:Name="tblSum" Text="" FontSize="23" FontWeight="Bold" Grid.Row="1" Margin="200,230,3.2,0.4" Foreground="White" HorizontalAlignment="Right" Grid.ColumnSpan="6" Grid.RowSpan="2"/>
-        
-      
-        <Button x:Name="btnRegistration" Content="ОФОРМИТЬ" Grid.Row="2" Grid.Column="4" Margin="67.8,54.6,63,25.4" Height="Auto" Width="Auto" Grid.ColumnSpan="2" Click="btnRegistration_Click"/>
-        <Button x:Name="btnBack" Content="НАЗАД" Grid.Row="2" Grid.Column="0" Margin="68,54.6,67.2,25.4" Grid.ColumnSpan="2" Height="Auto" Width="Auto" Click="btnBack_Click"/>
+        <TextBlock x:Name="tblSumText" Text="СУММА ЗАКАЗА" FontSize="20" FontWeight="Bold" HorizontalAlignment="Right" Foreground="White" Grid.Row="1" Margin="0,230,3,0.4"  Grid.RowSpan="2" Grid.Column="4" Width="163"/>
+        <TextBlock x:Name="tblSum" Text="" FontSize="23" FontWeight="Bold" Grid.Row="1" Margin="0,230,3,0.4" Foreground="White" HorizontalAlignment="Right" Grid.RowSpan="2" Grid.Column="5" Width="0"/>
+
+
+        <Button x:Name="btnRegistration" Content="ОФОРМИТЬ" Grid.Row="2" Grid.Column="4" Margin="68.8,54.6,63,25.4" Height="Auto" Width="Auto" Grid.ColumnSpan="2" Click="btnRegistration_Click"/>
+        <Button x:Name="btnBack" Content="НАЗАД" Grid.Row="2" Grid.Column="0" Margin="68,54.6,67.4,25.4" Grid.ColumnSpan="2" Height="Auto" Width="Auto" Click="btnBack_Click"/>
     </Grid>
 </Window>
