@@ -1,0 +1,23 @@
+﻿<Window x:Class="PizzeriaApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PizzeriaApp"
+        mc:Ignorable="d"
+        
+        Title="Пиццерия" Height="400" Width="600" Icon="Resources/icon.png" ResizeMode="NoResize">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="70"/>
+        </Grid.RowDefinitions>
+        <Grid.Background>
+            <ImageBrush ImageSource="Resources/fon.PNG">
+              
+            </ImageBrush>
+        </Grid.Background>
+        <Button Grid.Row="1" HorizontalAlignment="Right" Margin="0 0 60 0" Name="btnOrder" Click="btnOrder_Click">Оформить заказ</Button>
+        <Button Grid.Row="1" HorizontalAlignment="Left" Margin="60 0 0 0" Name="btnAboutProgram" Click="btnAboutProgram_Click">О программе</Button>
+    </Grid>
+</Window>

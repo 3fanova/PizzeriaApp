@@ -1,0 +1,49 @@
+﻿<Window x:Class="PizzeriaApp.DiscontWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PizzeriaApp"
+        mc:Ignorable="d"
+        Title="Специальные предложения" Height="560" Width="620" Loaded="Window_Loaded" ResizeMode="NoResize" Icon="Resources/icon.png">
+   
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="445*"/>
+            <ColumnDefinition Width="158*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="120"/>
+            <RowDefinition Height="210"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <TextBlock Name="tblDelivery" FontWeight="Bold" Foreground="Maroon"  Text=" ВЫБЕРИТЕ СПОСОБ ДОСТАВКИ" FontSize="20"  Margin="10,10,-0.8,0" Grid.ColumnSpan="2"/>
+        <RadioButton Name ="rbPickup" Content="Самовывоз" FontSize="19" Foreground="Maroon" FontFamily="Microsoft sans serif" Margin="10,50,0.2,0" Grid.ColumnSpan="2" Checked="rbPickup_Checked"/>
+        <RadioButton Name ="rbCourier" Content="Доставка курьером (150 руб., если сумма заказа менее 1500)" FontSize="19" Foreground="Maroon" FontFamily="Microsoft sans serif" Margin="10,80,0.2,0" Grid.ColumnSpan="2" Checked="rbCourier_Checked"/>
+        <TextBlock Name="tblDiscont" FontWeight="Bold" Foreground="Maroon"  Text="20% СКИДКА ИМЕННИНИКАМ" FontSize="20"  Margin="126,15,15.8,0" Grid.Row="1" HorizontalAlignment="Center" Width="303"/>
+        <TextBlock Name="tblBirthday" FontWeight="Bold" Foreground="Maroon"  Text="У ВАС СЕГОДНЯ ДЕНЬ РОЖДЕНИЕ?" FontSize="17" Margin="10,50,-0.8,0" Grid.Row="1" Grid.ColumnSpan="2"/>
+        <TextBlock Name="tblConfirmation" Foreground="Maroon" FontSize="17" FontFamily="Microsoft sans serif" Margin="10,70,-0.8,0" Grid.Row="1" TextWrapping="Wrap" Grid.ColumnSpan="2">*Курьеру потребуется подтверждение <LineBreak/>Вашей даты рождения*</TextBlock>
+        <ComboBox Name="cmbBirthday"  Width="150" Text="Нет" Foreground="Maroon" FontSize="17" Grid.Row="1" HorizontalAlignment="Right" Margin="0,55,40.2,35" Grid.ColumnSpan="2" SelectionChanged="cmbBirthday_SelectionChanged"/>
+        <TextBlock Name="tblComment" Foreground="Maroon"  Text="ПОЛУЧИТЕ КУПОН НА ЗАКАЗ, ОСТАВИВ СВОЙ ОТЗЫВ" FontSize="20"  Margin="30,5,20.2,99.4" Grid.Row="2" FontWeight="Bold" HorizontalAlignment="Center" Grid.ColumnSpan="2" Grid.RowSpan="2" Width="553"/>
+        <TextBlock Name="tblCouponOne" Foreground="Maroon"  Text="Наггетсы куриные, Pepsi" FontSize="17"  Margin="10,30,-0.8,99.4" Grid.Row="2" FontWeight="Bold" Grid.ColumnSpan="2" Grid.RowSpan="2"/>
+        <TextBlock Name="tblSumCouponOneDiscont" Foreground="Maroon"  Text="185 руб." FontSize="17"  Margin="18,30,0.2,0.4" FontWeight="Bold" Grid.Column="1" Grid.Row="2"/>
+        <TextBlock Name="tblSumCouponOne" Foreground="Maroon"  Text="216 руб." FontSize="17"  Margin="88,30,0.2,0.4" FontWeight="Bold" Grid.Column="1" Grid.Row="2" TextDecorations="Strikethrough"/>
+
+        <TextBlock Name="tblCouponTwo" Foreground="Maroon"  Text="Наггетсы куриные, картофель фри, Coca-cola" FontSize="17"  Margin="10,50,-0.8,99.4" Grid.Row="2" FontWeight="Bold" Grid.ColumnSpan="2" Grid.RowSpan="2"/>
+        <TextBlock Name="tblSumCouponTwoDiscont" Foreground="Maroon"  Text="268 руб." FontSize="17"  Margin="18,50,0.2,0.4" FontWeight="Bold" Grid.Column="1" Grid.Row="2"/>
+        <TextBlock Name="tblSumCouponTwo" Foreground="Maroon"  Text="299 руб." FontSize="17"  Margin="88,50,0.2,0.4" FontWeight="Bold" Grid.Column="1" Grid.Row="2" TextDecorations="Strikethrough"/>
+        <TextBox x:Name="tbComment" Tag="Оставьте свой отзыв здесь..." Grid.Row="2" Margin="7,73,6.2,57.4" Grid.ColumnSpan="2" Width="590" Height="80"/>
+        <Button x:Name="btnComment" Content="ОСТАВИТЬ ОТЗЫВ" Grid.Row="2" HorizontalAlignment="Left" Margin="20,165,0,5.4" Foreground="Red" Height="Auto" Click="btnComment_Click"/>
+        <Button x:Name="btnClear" Content="ОЧИСТИТЬ" Grid.Row="2" HorizontalAlignment="Right" Margin="0,165,20.2,5.4" Foreground="Red" Grid.ColumnSpan="2" Height="Auto" Click="btnClear_Click"/>
+        <TextBlock Name="tblResults" Foreground="White"  Text="СУММА ЗАКАЗА" FontSize="19"  Margin="0 15 100 0" HorizontalAlignment="Right" Grid.Row="3" FontWeight="Bold" Grid.ColumnSpan="2"/>
+        <TextBlock Name="tblSum" Foreground="White"  Text="" FontSize="19"  HorizontalAlignment="Right"  Margin="0 15 10 0" Grid.Row="3" FontWeight="Bold" Grid.Column="1"/>
+        <Button x:Name="btnBack" Content="НАЗАД" Grid.Row="3" HorizontalAlignment="Left" Margin="20,49.6,0,10.4" Foreground="White" Height="Auto" Click="btnBack_Click"/>
+        <Button x:Name="btnOK" Content="ОК" Grid.Row="3" HorizontalAlignment="Right" Margin="0,49.6,20.2,10.4" Foreground="White" Grid.ColumnSpan="2" Height="Auto" Click="btnOK_Click"/>
+    </Grid>
+</Window>
+
+    
+    
+    
+    
