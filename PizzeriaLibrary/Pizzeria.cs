@@ -61,7 +61,7 @@ namespace PizzeriaLibrary
 
         static public void getInfoAboutProgram(TextBlock tblAboutProgram)
         {
-            using (StreamReader f = new StreamReader("D:/Пиццерия_Ефанова/PizzeriaApp/PizzeriaApp/Resources/О программе.txt", System.Text.Encoding.UTF8))
+            using (StreamReader f = new StreamReader("О программе.txt", System.Text.Encoding.UTF8))
             {
                 string str;
                 while ((str = f.ReadLine()) != null)
