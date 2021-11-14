@@ -41,7 +41,7 @@ namespace PizzeriaApp
             }
             else
             {
-                MessageBox.Show("Добавьте выбранные позиции в корзину!", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
+                MessageBox.Show("Выберите позиции!", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
 

@@ -66,7 +66,7 @@
         <TextBlock x:Name="tblSumText" Text="СУММА ЗАКАЗА" FontSize="20" FontWeight="Bold" HorizontalAlignment="Right" Foreground="White" Grid.Row="1" Margin="20,230,3.2,0.4"  Grid.ColumnSpan="5"  Grid.RowSpan="2"/>
         <TextBlock x:Name="tblSum" Text="" FontSize="23" FontWeight="Bold" Grid.Row="1" Margin="200,230,3.2,0.4" Foreground="White" HorizontalAlignment="Right" Grid.ColumnSpan="6" Grid.RowSpan="2"/>
         
-        <Button x:Name="btnBasket" Content="В КОРЗИНУ" Foreground="red" Grid.Row="2" Grid.Column="2" Margin="66.8,54.6,68.2,25.4" Grid.ColumnSpan="2" Height="Auto" Width="Auto" Click="btnBasket_Click"/>
+      
         <Button x:Name="btnRegistration" Content="ОФОРМИТЬ" Grid.Row="2" Grid.Column="4" Margin="67.8,54.6,63,25.4" Height="Auto" Width="Auto" Grid.ColumnSpan="2" Click="btnRegistration_Click"/>
         <Button x:Name="btnBack" Content="НАЗАД" Grid.Row="2" Grid.Column="0" Margin="68,54.6,67.2,25.4" Grid.ColumnSpan="2" Height="Auto" Width="Auto" Click="btnBack_Click"/>
     </Grid>
