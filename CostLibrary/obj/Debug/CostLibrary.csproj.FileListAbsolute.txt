@@ -1,0 +1,6 @@
+D:\Пиццерия_Ефанова\PizzeriaApp\CostLibrary\bin\Debug\CostLibrary.dll
+D:\Пиццерия_Ефанова\PizzeriaApp\CostLibrary\bin\Debug\CostLibrary.pdb
+D:\Пиццерия_Ефанова\PizzeriaApp\CostLibrary\obj\Debug\CostLibrary.csproj.AssemblyReference.cache
+D:\Пиццерия_Ефанова\PizzeriaApp\CostLibrary\obj\Debug\CostLibrary.csproj.CoreCompileInputs.cache
+D:\Пиццерия_Ефанова\PizzeriaApp\CostLibrary\obj\Debug\CostLibrary.dll
+D:\Пиццерия_Ефанова\PizzeriaApp\CostLibrary\obj\Debug\CostLibrary.pdb

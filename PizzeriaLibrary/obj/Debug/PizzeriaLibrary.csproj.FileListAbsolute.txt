@@ -1,0 +1,9 @@
+D:\Пиццерия_Ефанова\PizzeriaApp\PizzeriaLibrary\bin\Debug\PizzeriaLibrary.dll
+D:\Пиццерия_Ефанова\PizzeriaApp\PizzeriaLibrary\bin\Debug\PizzeriaLibrary.pdb
+D:\Пиццерия_Ефанова\PizzeriaApp\PizzeriaLibrary\bin\Debug\CostLibrary.dll
+D:\Пиццерия_Ефанова\PizzeriaApp\PizzeriaLibrary\bin\Debug\CostLibrary.pdb
+D:\Пиццерия_Ефанова\PizzeriaApp\PizzeriaLibrary\obj\Debug\PizzeriaLibrary.csproj.AssemblyReference.cache
+D:\Пиццерия_Ефанова\PizzeriaApp\PizzeriaLibrary\obj\Debug\PizzeriaLibrary.csproj.CoreCompileInputs.cache
+D:\Пиццерия_Ефанова\PizzeriaApp\PizzeriaLibrary\obj\Debug\PizzeriaLibrary.csproj.CopyComplete
+D:\Пиццерия_Ефанова\PizzeriaApp\PizzeriaLibrary\obj\Debug\PizzeriaLibrary.dll
+D:\Пиццерия_Ефанова\PizzeriaApp\PizzeriaLibrary\obj\Debug\PizzeriaLibrary.pdb
